@@ -20,4 +20,8 @@ public class HelloResource {
         return "Hello World";
     }
 
+@GetMapping
+public String test(){
+return "test"
+}
 }
